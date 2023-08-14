@@ -1,4 +1,4 @@
-如何通过Ethers获取链上的数据
+如何通过Ethers获取链上的数据(sepolia测试网：https://sepolia.etherscan.io/)
 
 npm install -g typescript
 // 查看版本
@@ -13,3 +13,6 @@ npm init --yes
 npm install -save-dev ethers
 //运行该文件
 ts-node .\index.ts  
+
+
+block中没有交易数据
