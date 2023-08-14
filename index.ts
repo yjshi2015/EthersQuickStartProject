@@ -2,7 +2,7 @@ import {Block, ethers} from "ethers";
 
 async function main() {
     //provider为区块链的一个"只读“链接，类似于数据库的只读连接
-    const provider = new ethers.WebSocketProvider("wss://sepolia.infura.io/ws/v3/ab6f690a7abd4c6d836a0454d5112a50");
+    const provider = new ethers.WebSocketProvider("wss://sepolia.infura.io/ws/v3/syjab6f690a7abd4c6d836a0454d5112a50666");
     /**
     //监听当前已发生但还没哟写入区块的交易
     provider.on("pending", async(tx) => {
